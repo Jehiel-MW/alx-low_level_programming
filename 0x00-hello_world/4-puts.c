@@ -3,7 +3,7 @@
 int main(void)
 {
 	/**
-	 * main - String initialisation
+	 * main - Entry point
 	 *
 	 * Return 0
 	 */
