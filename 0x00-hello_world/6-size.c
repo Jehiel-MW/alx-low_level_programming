@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Program ending
+ * Return: End of input
  */
 int main(void)
 {
