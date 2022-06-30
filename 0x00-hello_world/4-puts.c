@@ -1,8 +1,12 @@
 #include <stdio.h>
+int main(void)
 {
-	//string initialisation
-	char C_task_4[] = "Programming is like building a multilingual puzzle";
+	/**
+	 * String initialisation
+	 *
+	 * Return 0
+	 */
+	char C_task_4[] = ("Programming is like building a multilingual puzzle");
 	puts(C_task_4);
-	//writing the string to stdout
-	return 0;
+	return (0);
 }
