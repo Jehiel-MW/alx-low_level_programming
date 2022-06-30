@@ -6,7 +6,6 @@ int main(void)
 	 *
 	 * Return 0
 	 */
-	char C_task_4[] = ("Programming is like building a multilingual puzzle");
-	puts(C_task_4);
+	puts("Programming is like building a multilingual puzzle\n");
 	return (0);
 }
