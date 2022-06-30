@@ -2,7 +2,7 @@
 int main(void)
 {
 	/**
-	 * String initialisation
+	 * main - String initialisation
 	 *
 	 * Return 0
 	 */
