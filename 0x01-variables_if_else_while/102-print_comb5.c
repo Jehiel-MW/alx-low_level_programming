@@ -7,23 +7,32 @@
 */
 int main(void)
 {
-int ch;
-int n;
-
-for (ch = 48; ch <= 57; ch++)
+int w, x, y, z;
+for (w = 0 ; w <= 9 ; w++)
 {
-for (n = 49; n <= 57; n++)
+for (x = 0 ; x <= 9 ; x++)
 {
-putchar(ch);
-putchar(n);
-if (ch != 56 || n != 57)
+for (y = 0 ; y <= 9 ; y++)
 {
-putchar(44);
-putchar(32);
+for (z = 0 ; z <= 9 ; z++)
+{
+if (w < y || (w == y && x < z))
+{
+putchar(w);
+putchar(x);
+putchar(' ');
+putchar(y);
+putchar(z);
+if (w == 9 && x == 8 && y == 9 && z == 9)
+	continue;
+putchar(',');
+putchar(' ');
 }
 }
 }
-
-putchar(10);
+}
+}
+putchar('\n');
 return (0);
 }
+	
