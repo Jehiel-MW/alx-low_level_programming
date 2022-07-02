@@ -1,22 +1,24 @@
 #include <stdio.h>
 
 /**
-* main -> assign a random number to the variable n each time it is execute
-* Return: always 0
+*main - prints all possible different combinations of two digits
+*
+*Return: 0
 */
 int main(void)
 {
+int ch;
 int n;
-int i;
-for (i = 48 ; i <= 57 ; i++)
+
+for (ch = 48; ch <= 57; ch++)
 {
-for (n = 49 ; n <= 57 ; n++)
+for (n = 49; n <= 57; n++)
 {
-if (n > i)
+if (n > ch)
 {
-putchar(i);
+putchar(ch);
 putchar(n);
-if (i !=  56 || i != 57)
+if (ch != 56 || n != 57)
 {
 putchar(44);
 putchar(32);
