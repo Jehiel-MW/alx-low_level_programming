@@ -2,6 +2,7 @@
 
 /**
 * print_alphabet_x10.c -> print the alphabets from a-z x10
+* @void: printing the alphabet more than once
 * Return: always 0 (success)
 */
 
