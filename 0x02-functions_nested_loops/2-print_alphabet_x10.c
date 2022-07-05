@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_alphabet_x10.c -> print the alphabets from a-z
+* print_alphabet_x10.c -> print the alphabets from a-z x10
 * Return: always 0 (success)
 */
 
@@ -16,6 +16,6 @@ for (n = 'a' ; n <= 'z' ; n++)
 {
 _putchar(n);
 }
-}
 _putchar('\n');
+}
 }
