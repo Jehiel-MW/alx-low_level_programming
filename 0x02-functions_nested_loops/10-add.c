@@ -2,11 +2,12 @@
 
 /**
 * add -> print the outcome of two added value
-* @int: addition of numbers
+* @n: first number input to be added
+* @m: the second number to be added
 * Return: 0 (success)
 */
 
-int add(int, int)
+int add(int n, int m)
 {
-return (n1 + n2);
+return (n + m);
 }
