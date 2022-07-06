@@ -8,12 +8,6 @@
 
 int add(int, int)
 {
-{
-int sum;
-sum = a + b;
-return (sum);
-}
-{
 int a;
 int b;
 int result;
