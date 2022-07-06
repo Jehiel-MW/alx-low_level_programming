@@ -2,13 +2,16 @@
 
 /**
 * _abs -> computing the absolute value of given set of data
-* @int: compute absolute value of an integer
+* @c: compute absolute value of an integer
 * Return: 0 (success)
 */
-
-int _abs(int)
+int _abs(int c)
 {
-if (n < 0)
-n = -n;
+if (c < 0)
+{
+int n;
+n = c * -1;
 return (n);
+}
+return (c);
 }

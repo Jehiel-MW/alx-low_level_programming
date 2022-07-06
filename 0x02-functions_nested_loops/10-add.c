@@ -2,21 +2,11 @@
 
 /**
 * add -> print the outcome of two added value
-	* @int: addition of numbers
+* @int: addition of numbers
 * Return: 0 (success)
 */
 
 int add(int, int)
 {
-int a;
-int b;
-int result;
-
-a = 5;
-b = 7;
-result = add(a, b);
-{
-_putchar("result");
-}
-return (0);
+return (n1 + n2);
 }
