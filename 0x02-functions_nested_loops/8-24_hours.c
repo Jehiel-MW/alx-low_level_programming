@@ -23,7 +23,7 @@ else if (l >= 10)
 _putchar((l / 10) + '0');
 _putchar((l % 10) + '0');
 }
-if (m < 10)
+if (m <= 1)
 {
 _putchar(':');
 _putchar('0');
