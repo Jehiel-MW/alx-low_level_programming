@@ -29,12 +29,13 @@ _putchar(':');
 _putchar('0');
 _putchar(m);
 }
-else if (m > 10)
+else if (m >= 10)
 {
 _putchar(':');
 _putchar((m / 10) + '0');
 _putchar((m % 10) + '0');
 }
+_putchar('\n');
 }
 }
 }
