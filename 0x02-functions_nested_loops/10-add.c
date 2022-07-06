@@ -14,7 +14,9 @@ int result;
 
 a = 5;
 b = 7;
-result = add('a', 'b');
-printf("%d\n", result);
+result = add(a, b);
+{
+_putchar("result");
+}
 return (0);
 }
