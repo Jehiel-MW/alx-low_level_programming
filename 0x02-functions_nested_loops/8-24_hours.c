@@ -20,8 +20,8 @@ _putchar(l + '0');
 }
 else if (l >= 10)
 {
-_putchar((l / 10) + '10');
-_putchar((l % 10) + '10');
+_putchar((l / 10) + '0');
+_putchar((l % 10) + '0');
 }
 if (m < 10)
 {
