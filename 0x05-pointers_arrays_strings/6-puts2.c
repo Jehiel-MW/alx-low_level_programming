@@ -3,7 +3,7 @@
 /**
 * puts2 -> print one char out of 2 of a string
 * @str: string to print
-* Return: always 0 (success) 
+* Return: always 0 (success)
 */
 
 void puts2(char *str)
