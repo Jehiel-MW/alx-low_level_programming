@@ -1,20 +1,4 @@
 #include "main.h"
-
-/**
-* _strlen -> the program returns the lenght of a string
-* @s: this is to represrnt the pointer of character
-* Return: the length of a string
-*/
-int _strlen(char *s)
-{
-int len;
-
-len = 0;
-while (*(s + len) != '\0')
-len++;
-return (len);
-}
-
 /**
 * *_strcat -> the program concatenates two strings
 * @dest: this represents string to dest
