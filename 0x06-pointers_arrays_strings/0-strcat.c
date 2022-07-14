@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 /**
 * _strcat -> the program concatenates two strings
 * @dest: this represents string to dest
