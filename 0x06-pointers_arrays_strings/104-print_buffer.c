@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
-* print_line - prints a s bytes of a buffer
-* @c: buffer to print
-* @s: bytes of buffer to print
-* @l: line of buffer to print
+* print_line -> prog to prints a s bytes of a buffer
+* @c: it rep the buffer to print
+* @s: it rep the bytes of buffer to print
+* @l: it rep the line of buffer to print
 * Return: void
 */
 
@@ -32,10 +32,9 @@ putchar('.');
 }
 
 /**
-* print_buffer - prints a buffer
-* @b: buffer to print
-* @size: size of buffer
-*
+* print_buffer -> program to prints a buffer
+* @b: it rep buffer to print
+* @size: it rep size of buffer
 * Return: void
 */
 void print_buffer(char *b, int size)
