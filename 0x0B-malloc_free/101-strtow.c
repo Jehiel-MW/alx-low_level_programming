@@ -66,7 +66,6 @@ char **strtow(char *str)
 {
 int numWords, numChars, i, j;
 char **words;
-
 i = 0;
 if (str == NULL || *str == '\0')
 return (NULL);
@@ -77,8 +76,7 @@ words = (char **) malloc((numWords + 1) * sizeof(char *));
 if (words == NULL)
 {
 free(words);
-return (NULL);
-}
+return (NULL); }
 while (i < numWords)
 {
 if (*str == ' ')
@@ -92,16 +90,14 @@ if (*(words + i) == NULL)
 for (j = 0; j < i; j++)
 free(*(words + j));
 free(words);
-return (NULL);
-}
+return (NULL); }
 for (j = 0; j < numChars; j++)
 {
-*(*(words + i) + j) = *str;
+*(*(words + i) +j) = *str;
 str++;
 }
-*(*(words + i) + j) = '\0';
-i++;
-}
+*(*(words + i) +j) = '\0';
+i++; }
 }
 *(words + numWords) = NULL;
 return (words);
