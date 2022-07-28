@@ -62,7 +62,7 @@ for (i = 0; i < (nmemb * size); i++)
 *(newArray + i) = 0;
 
 return (newArray);
-} 1
+}
 
 /**
  * main- multiplies 2 positive numbers.
